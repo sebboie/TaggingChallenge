@@ -5,7 +5,7 @@
 docker pull sebboie/taggingchallenge
 
 
-docker run -v /path/to/json/files/:/working_dir/metadata -v /path/to/image/files/:/working_dir/images --shm-size 50G -it kodakone_challenge /bin/bash
+docker run -v /path/to/json/files/:/working_dir/metadata -v /path/to/image/files/:/working_dir/images --shm-size 50G -it taggingchallenge /bin/bash
 
 */path/to/json/files/* refers to your local path where json files (e.g. yelp_academic_dataset_business.json, ...) are stored
 */path/to/image/files/* refers to your local path where the images are stored
