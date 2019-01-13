@@ -1,6 +1,6 @@
 # README.md
 
-## The image can be obtained from Dockerhub via:
+#### The image can be obtained from Dockerhub via:
 
 docker pull sebboie/taggingchallenge
 
